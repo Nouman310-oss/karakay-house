@@ -14,6 +14,9 @@ const products = [
   { name: "Water Set", price: 900, img: "images/Water set.jpg" },
   { name: "Electic Rice Cooker", price: 150, img: "images/Electric Rice Cooker.jpg" },
   { name: "Water Bottle", price: 250, img: "images/IMG-20251102-WA0006.jpg" }
+  { name: "Tiffin ", price: 250, img: "images/IMG-20251105-WA0040.jpg" }
+  { name: "Pressure Cooker", price: 250, img: "images/IMG-20251105-WA0044.jpg" }
+  { name: "Digitaal Water Bottle", price: 250, img: "images/IMG-20251105-WA0045.jpg" }
 ];
 
 let cart = [];
@@ -93,3 +96,4 @@ function orderWhatsApp() {
   const url = `https://wa.me/?text=${encodeURIComponent(message)}`;
   window.open(url, "_blank");
 }
+
